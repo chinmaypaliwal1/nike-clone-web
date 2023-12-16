@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background: rgb(255, 254, 254);
+    width: 100%;
+  height: 100%;
+  }
+  header{
+  
+    width: 100%;
+    position: fixed;
+    margin-bottom: 2rem;
+    top: 0;
+    z-index: 111;
+    background-color: white;
+
+  }
+  .ui-nav {
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+    }
+    
+    
+    .nav-item {
+      margin: 1rem;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    .nav-item a{
+      text-decoration: none;
+      color: black;
+    }
+   
+
+    .right-nav {
+      display: flex;
+      align-items: center;
+      margin-right: 2rem;
+    
+    }
+    .left-nav {
+      display: flex;
+      margin-left: 2rem;
+      
+      
+  }
+  .logo{
+      width: 5rem;
+      height:5rem;
+  }
+  
+  .cart-img{
+    width:2.5rem;
+    height: 1.7rem;
+    cursor: pointer;
+    margin: .5rem;
+  }
+  .acc-img{
+    width: 3em;
+    height: 3rem;
+    cursor: pointer;
+    margin: .5rem;
+  }
+  .three-img{
+    width: 3rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: .5rem;
+  }
+  
+  
+  #search-box input{
+      padding: 4px;
+      border-radius:8%;
+      width: 8rem;
+  }
+  .search-img{
+    width:1.3rem ;
+    height: 1.3rem;
+    margin: 1rem;
+  }
+  .hidden{
+    display: none;
+  
+  }
+  #content-box{
+  margin-top: 1rem;
+  }
+  /*
+  #login-box{
+  padding-top: 1rem;
+  width: 22vw;
+  height: 45vh;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  #login-box span{
+    font-weight: 500;
+    padding-left: 1rem;
+  }
+  
+  #login-box input{
+    width :10rem;
+    margin: 1rem;
+  }
+  .creat-acc-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;  
+  }
+  .creat-acc-btn:hover{
+    color: blue;
+  }
+  #login-box h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 1rem;
+  
+  }
+  #cross-btn{
+   font-weight: 800;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: fit-content ;
+   cursor: pointer;
+  }
+  #cross-btn:hover{
+  color: red;
+  
+  } */
+  .doc-heading {
+    font-size: 1.8rem;
+   margin-top: 3rem;
+    font-weight: 700;
+margin-left: 3rem;
+padding-top: 3rem;
+  }
+  .sub-headings{
+    font-size: 1.1rem;
+    font-weight: 700;
+   margin-left: 1.1rem;
+   padding: 1rem 0 1rem 0;
+  }
+  .main-box
+  {
+
+    width: 100vw;
+  }
+.slide-bar{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  top: 0;
+  z-index: 111;
+  background-color: white;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 2px;
+    width: 15rem;
+   
+}
+
+  .radiolist{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.7rem;
+    gap:1rem;
+  } 
+  .radiolist input{
+    margin-right: .5rem;
+  }
+
+  .checklist{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.7rem;
+    gap:1rem;
+   
+    }
+    .checklist input{
+      margin-right: .5rem;
+    }
+    .contant-main-box{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+    }
+  .demo-component-typo {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+  
+    background-color: rgba(128, 128, 128, 0.068);
+  
+    
+  }
+  .flex-row {
+    flex-direction: row;
+  }
+  .component-box {
+    margin: rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .card-content-box {
+    margin: 0 9rem 0 10rem;
+    height: 22vh;
+    width: 21vw;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .badge {
+    background-color: black;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    margin-top: 0.5rem;
+    width: fit-content;
+    position: absolute;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.card-top-img {
+    border-radius: 4px 4px 0px 0px;
+    object-fit: cover;
+}
+.card-comp-img {
+    position: relative;
+    height: auto;
+}
+.card-commp {
+    display: flex;
+    flex-direction: column;
+
+ 
+    border-radius: 4px;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contant-box{
+    padding: 1rem;
+}
+.discount-tag{
+  color: red;
+  padding: 5px;
+}
+.span-element-sm {
+  margin: 0.4rem;
+}
+
+.star-img {
+  margin-top: 0.2rem;
+}
+
+.rating-comp {
+  margin: 10px 0 10px;
+  width: 4rem;
+}
+.rating-box-sm {
+  padding: 0.4rem;
+  height: 1rem;
+}
+.rating-box {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+  cursor: default;}
+#add-btn {
+    padding: .6rem;
+    width: 20vw;
+    transition: 0.8s;
+    cursor: pointer;
+
+}
+#add-btn:hover{
+    background: black;
+    color: white;
+}
+.about-us-container {
+  display: flex;
+  cursor: default;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background: black;
+  color: antiquewhite;
+
+}
+
+.social-media {
+  margin: 2rem;
+}
+
+.social-media h3 {
+  margin: 1rem;
+}
+
+.quick-links {
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.quick-links h2 {
+  color: rgb(130, 126, 126);
+  margin: 1rem;
+  white-space: nowrap;
+  font-size: 2rem;
+}
+
+.quick-links span {
+  margin: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.contact-list{
+  display: flex;
+  justify-content: space-around;
+} 
+#empty-cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:4rem ;
+  margin-bottom: 4rem;
+
+}
+#bi-badge {
+  position: relative;
+  font-size: 12px;
+  max-width: 500;
+  line-height: 0;
+  padding: 3px 6px;
+  border-radius: 50%;
+  background: black;
+  color: aliceblue;
+  top: -2rem;
+  left: -1.5rem;
+}
+.Cart-price-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.horizontal-card {
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 20rem;
+  margin: 1rem;
+  background-color: rgba(128, 128, 128, 0.068);
+}
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 6rem;
+
+
+}
+.card-comp-left {
+  width: 8rem;
+
+}
+.card-jorden-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.item-quantity {
+  display: flex;
+  padding-left: 1rem;
+}
+.card-h4 {
+  padding-left: 1rem;
+  font: 1.2rem;
+}
+.card-h5 {
+  font-size: 0.8rem;
+  padding-left: 1rem;
+  font-weight: 400;
+  color: gray;
+  margin-bottom: 1rem;
+}
+.btn-icon {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  align-items: center;
+  cursor: pointer;
+}
+.quantity-number {
+  padding: 3px 8px;
+  font-size: 1.2rem;
+  margin: 0.4rem;
+}
+.prize-tag {
+  margin: 4px 0;
+  font-size: 1rem;
+  padding-left: 1rem;
+  color: red;
+}
+.price-contant{
+  margin-top: 7rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: fit-content;
+ width: 25vw;
+  margin-left: 2rem;
+}
+.price-contant h3{
+  padding: 1rem;
+}
+.price-contant h4{
+  padding: 1rem;
+}
+
+
+.address{
+  margin-left: 1rem;
+  font-stretch: normal;
+}
+.pricing{
+  display: flex;
+justify-content: space-between;
+}
+.pricing span{
+  padding-top: 1rem;
+}
+
+.pricing h5{
+  color: grey;
+  padding-left: 1rem;
+}
+.total-amount{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+
+}
+#Payment {
+display: flex;
+justify-content: center;
+margin: .6rem;
+padding: .6rem;
+
+transition: 1s;
+cursor: pointer;
+border: none;
+
+}
+#Payment button{
+  width: 20vw;
+  height: 6vh;
+
+}
+#Payment  :hover{
+background: black;
+color: white;
+}
+@media only screen and (max-width: 600px) {
+  .ui-nav {
+    
+    box-sizing: border-box;
+    gap: 4.8rem;
+  
+}
+.main-box{
+  width: 161%;
+}
+  #add-btn  {
+    width: 100%;
+  }
+  .radiolist{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.7rem;
+    gap: 1rem;
+    font-size: .9rem;
+  }
+  .demo-component-typo {
+    padding-top: 4rem;
+    display: flex;
+   flex-wrap: wrap;
+    background-color: rgba(128, 128, 128, 0.068);
+    width: 100vw;
+  
+}.quick-links {
+   margin: 0; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: black;
+
+}.right-nav {
+  display: flex;
+  align-items: center;
+  margin-right: 4rem;
+}
+}
