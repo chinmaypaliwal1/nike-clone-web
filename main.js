@@ -70,3 +70,14 @@ document.getElementById("main-contant-box").innerHTML="your cart is empty";
           }
         }
       }
+      function togglefeatureicon() {
+        var element = document.querySelector(".floated-feature-icon");
+        console.log(element);
+        if (element) {
+          if (element.style.visibility === "visible") {
+            element.style.visibility = "hidden";
+          } else {
+            element.style.visibility = "visible";
+          }
+        }
+      }
