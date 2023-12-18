@@ -56,10 +56,10 @@
     width:2.5rem;
     height: 1.7rem;
     cursor: pointer;
-    margin: .5rem;
+    margin-top: 0.5rem;
   }
   .acc-img{
-    width: 3em;
+    width: 2.5em;
     height: 3rem;
     cursor: pointer;
     margin: .5rem;
@@ -151,10 +151,11 @@ padding-top: 3rem;
    margin-left: 1.1rem;
    padding: 1rem 0 1rem 0;
   }
-  .main-box
+  .card-comp-img img
   {
+    width: 230px;
 
-    width: 100vw;
+  
   }
 .slide-bar{
   width: 100%;
@@ -360,8 +361,8 @@ padding-top: 3rem;
   border-radius: 50%;
   background: black;
   color: aliceblue;
-  top: -2rem;
-  left: -1.5rem;
+  top: -1.5rem;
+  left: -1.2rem;
 }
 .Cart-price-box{
   display: flex;
@@ -489,18 +490,37 @@ border: none;
 background: black;
 color: white;
 }
+.menu-icon {
+  margin: 0.5rem;
+  cursor: pointer;
+  display: none;
+}
+.floated-menu {
+  background-color: rgb(241, 236, 236);
+  border-radius: 5px;
+  padding: 0.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  position: fixed;
+  top: 58px;
+  right: 9px;
+  width: 30vw;
+  height: 47vh;
+  z-index: 111111;
+  visibility: hidden;
+}
 @media only screen and (max-width: 600px) {
   .ui-nav {
-    
-    box-sizing: border-box;
-    gap: 4.8rem;
-  
+  width: 100vw;
+ gap: 8rem;
 }
 .main-box{
-  width: 161%;
+  width: 100vw;
 }
   #add-btn  {
-    width: 100%;
+    width: 60vw
   }
   .radiolist{
     display: flex;
@@ -535,7 +555,7 @@ color: white;
   align-items: center;
 }
 .list-item {
-  display: flex;
+  display: none;
   flex-direction: column;
   text-decoration: none;
   background-color: white;
@@ -545,15 +565,12 @@ color: white;
 }.about-us-container {
   display: flex;
   cursor: default;
-  align-content: center;
-  flex-wrap: nowrap;
-  justify-content: center;
+  width: 100vw;
   background: black;
   color: antiquewhite;
   flex-direction: column;
 }
 .slide-bar {
- 
   margin-bottom: 2rem;
   display: flex;
   top: 0;
@@ -563,4 +580,47 @@ color: white;
   flex-wrap: nowrap;
   justify-content: center;
 }
+.search-img{
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 1rem;
 }
+#bi-badge{
+  position: relative;
+  font-size: 12px;
+  max-width: 500;
+  line-height: 0;
+  padding: 3px 6px;
+  border-radius: 50%;
+  background: black;
+  color: aliceblue;
+  top: -2.7rem;
+  left: 1.8rem;
+}
+.cart-img{
+  width: 2.5rem;
+  height: 1.7rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+}
+.acc-img{
+  width: 2.5rem;
+  height: 3rem;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.card-comp-img {
+  display: flex;
+  justify-content: center;
+
+}.card-comp-img img{
+  width: 150px;
+}
+.rating-comp{
+  margin: 0px 0 10px;
+  width: 4rem;
+}
+}
+
+

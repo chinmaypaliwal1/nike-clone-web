@@ -58,3 +58,15 @@ document.getElementById("main-contant-box").innerHTML="your cart is empty";
     }) 
   }
 }
+
+      function toggleThreeLine() {
+        var element = document.querySelector(".floated-menu");
+        console.log(element);
+        if (element) {
+          if (element.style.visibility === "visible") {
+            element.style.visibility = "hidden";
+          } else {
+            element.style.visibility = "visible";
+          }
+        }
+      }
