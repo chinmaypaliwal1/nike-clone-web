@@ -71,7 +71,7 @@ document.getElementById("main-contant-box").innerHTML="your cart is empty";
         }
       }
       function togglefeatureicon() {
-        var element = document.querySelector(".floated-feature-icon");
+        var element = document.querySelector(".floated-feature");
         console.log(element);
         if (element) {
           if (element.style.visibility === "visible") {

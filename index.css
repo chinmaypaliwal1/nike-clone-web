@@ -9,7 +9,6 @@
   }
   header{
     width:100%;
-    height: 8rem;
       position: fixed;
     margin-bottom: 2rem;
     top: 0;
@@ -90,22 +89,7 @@
   #content-box{
   margin-top: 1rem;
   }
-  /*
-  #login-box{
-  padding-top: 1rem;
-  width: 22vw;
-  height: 45vh;
-  border: 1px solid;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  }
-  #login-box span{
-    font-weight: 500;
-    padding-left: 1rem;
-  }
+ 
   
   #login-box input{
     width :10rem;
@@ -568,6 +552,136 @@ margin: 1rem;
 .slide-container h3{
   margin-left: 1.4rem;
 }
+.shop-btn-box button{
+  padding: .8rem;
+  margin: 1.2rem .7rem;
+  border: none;
+  width: 177px;
+  height: 60px;
+  font-weight: 500;
+  border-radius: .3rem;
+  transition: .5s;
+  cursor: pointer;
+}
+.shop-btn-box button:hover{
+  background: rgb(40, 39, 39);
+  color: white;
+}
+.display-img-container{
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+
+}
+.display-img-container img{
+  width: 480px;
+  height: 480px;
+  margin: .6rem;
+}
+.display-img-container span{
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+.tranding-post{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: .5rem;
+  background: transparent;  
+}
+.sub-M-headline{
+
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.sub-M-headline p{
+  width: 60vw;
+  font-size: 1.2rem;
+  margin: 1rem;
+  font-weight: 600;
+}
+.floated-feature{
+background-color: white;
+border-radius: 5px;
+padding: -1.5rem 0rem;
+display: flex;
+flex-direction: row;
+gap: 1rem;
+align-items: center;
+justify-content: center;
+width: 100vw;
+height: 10rem;
+z-index: 111111;
+visibility: hidden;
+}  
+.link-section{
+  padding: .8rem;
+  margin: 1.2rem .7rem;
+  border: none;
+  display: contents;
+  width: 177px;
+  height: 60px;
+  font-weight: 500;
+  border-radius: .3rem;
+
+  cursor: pointer;
+  }
+  .link-section a
+  {
+   text-decoration: none;
+    color: red;
+    
+  }
+  .link-section a:hover{
+    border-bottom: 1px solid red;
+    transition: .5s ease-in-out;
+  } .first-gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6rem;
+    background: transparent;  
+  }
+  .first-gif img{
+    width: 50rem;
+    border-radius: 50%;
+  }
+
+  .main-headline {
+    margin-top: 7rem;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub-headline{
+    font-size: 1.3rem;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    font-weight: 700;
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h2{
+    margin: 5rem 0 0 5rem;
+  }
+.shop-btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width: 600px) {
   .ui-nav {
   width: 100vw;
@@ -701,7 +815,33 @@ margin: 1rem;
   right: 9px;
   z-index: 111111;
   visibility: hidden;
+}  .first-gif {
+  display: flex;
+  justify-content: none;
+   position: relative;
+   background: transparent;
+ }
+
+ .first-gif img {
+   width: 22rem;
+   border-radius: 50%;
+}  
+
+.main-headline {
+
+ font-size: 2.5rem;
+ font-weight: 500;
+ cursor: default;
+ display: flex;
+ text-align: center;
 }
+.sub-headline {
+ font-size: 2.3rem;
+ margin-left: 0.5rem;
+ margin-top: 0.5rem;
+ font-weight: 700;
+ cursor: default;
+ text-align: center;}
 }
 
 

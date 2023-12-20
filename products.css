@@ -737,30 +737,34 @@ margin: 1rem;
   cursor: default;
 }.slide-container {
   display: flex;
-  width: 100vw;
-  height: 75vh;
+  
   overflow: scroll;
-  margin: 1rem;
 }
 .slide-container span{
   font-size: 1.4rem;
   font-weight: 500;
-  margin-left: 1rem;
+  margin-left: 0;
   padding: 0.5rem;
 }.mens-collection {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: bold;
-  color: #fff;
-  padding: 20px;
+ 
+  background: transparent;
+
   background-image: url(img/nike-bg-image.jpg);
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
+ 
 }
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rem;
 }
 
 
